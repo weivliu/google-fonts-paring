@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'helvetica', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -12,71 +12,74 @@ header {
   height: 100vh;
 }
 
-.hero-content {
+.head-content {
   width: 50%;
   text-align: center;
   color: #000;
 }
 
 p {
-  font-weight: 200;
-  font-size: 18px;
-  line-height: 30px;
+  font-weight: 230;
+  font-size: 14px;
+  line-height: 25px;
 }
 
 a {
-  margin-top: 0;
+  margin-top: 5px;
   margin-right:10px;
-  margin-bottom: 10px;
-  background-color: rgb(0, 0, 0, 0.6);
+  margin-bottom: 5px;
+  background-color: #ffb3b3;
   padding: 10px;
   text-decoration: none;
   color: #fff;
   display: inline-block;
+  
 }
 
-nav {
-  width: 100%;
+nav{
+  background-color: #ffe6e6;
+  position: sticky;
   text-align: center;
-  padding: 20px;
-  position: fixed;
+  width: 1500px;
+  height: 55px;
+  padding; 40px;
   top: 0;
-  background-color:  rgb(0, 0, 0, 0.3);
-  z-index: 10;
+ 
 }
 
 span .font-pair1a{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 span .font-pair1b{
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
 /* add your css below this line */
 
-.hero-background {
-  background: url(https://images.pexels.com/photos/1533720/pexels-photo-1533720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260;
+.head-background {
+  background: url("https://cdn.pixabay.com/photo/2014/11/27/10/29/mountain-547363_1280.jpg") no-repeat fixed center;
   background-size: cover;
 }
 
-.hero {
+.head {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .first-section-background {
-  background: url("https://images.pexels.com/photos/6249454/pexels-photo-6249454.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") no-repeat fixed bottom;
+  background: url("https://cdn.pixabay.com/photo/2020/03/26/10/58/norway-4970080_1280.jpg") no-repeat fixed bottom;
 }
 
 .second-section-background {
-  background: url("https://images.pexels.com/photos/5480787/pexels-photo-5480787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260;
+  background: url("https://cdn.pixabay.com/photo/2017/02/15/11/15/wintry-2068298_1280.jpg") no-repeat fixed bottom;
 }
 
 .third-section-background {
-  background: url(https://images.pexels.com/photos/5102374/pexels-photo-5102374.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260;
+  background: url("https://cdn.pixabay.com/photo/2015/10/06/19/28/trees-975091_1280.jpg") no-repeat fixed bottom;
+}
 
 .with-background {
   background-size: cover;
@@ -99,7 +102,7 @@ h1 {
 
 h2 {
   font-size: 35px;
-  font-weight: 200;
+  font-weight: 250;
   line-height: 40px;
 }
 
@@ -110,16 +113,18 @@ h3 {
   margin: 0;
 }
 
-.number {
-  width: 50px;
-  height: 50px;
-  background-color: #000;
+
+
+.note {
+  width: 60px;
+  height: 35px;
+  background-color: #fff;
   position: absolute;
-  color: #fff;
+  color: #000;
   text-align: center;
-  top: -25px;
-  right: -25px;
-  font-weight: 30px;
+  top: -20px;
+  left: -25px;
+  font-weight: 40px;
   line-height: 50px;
 }
 
@@ -134,16 +139,18 @@ article {
 }
 
 .first-article-container {
-  background-color: #e2b400;
+  background-color: white;
 }
 
 .second-article-container {
-  background-color: #a66746;
+  background-color: #e6ffff;
 }
 
 .third-article-container {
-  background-color: #a69991;
+  background-color: #ff5c33;
 }
+
+
 
 footer {
   text-align: center;
@@ -151,7 +158,15 @@ footer {
   background-color: rgb(0, 0, 0, 0.3);
 }
 
- 
-
-
-
+.container-footer {
+  width: 500px;
+  height: 20px;
+  background-color: #000;
+  opacity: 0.3;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  right: 2px;
+  bottom: 2px;
+  font-weight: 5px;
+}
