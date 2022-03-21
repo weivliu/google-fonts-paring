@@ -15,12 +15,12 @@ header {
 .head-content {
   width: 50%;
   text-align: center;
-  color: #000;
+  color: #fff;
 }
 
 p {
-  font-weight: 230;
-  font-size: 14px;
+  font-weight: 180;
+  font-size: 15px;
   line-height: 25px;
 }
 
@@ -28,7 +28,7 @@ a {
   margin-top: 5px;
   margin-right:10px;
   margin-bottom: 5px;
-  background-color: #ffb3b3;
+  background-color: #AAB7B8;
   padding: 10px;
   text-decoration: none;
   color: #fff;
@@ -37,7 +37,7 @@ a {
 }
 
 nav{
-  background-color: #ffe6e6;
+  background-color: #34495E;
   position: sticky;
   text-align: center;
   width: 1500px;
@@ -59,7 +59,7 @@ span .font-pair1b{
 /* add your css below this line */
 
 .head-background {
-  background: url("https://cdn.pixabay.com/photo/2014/11/27/10/29/mountain-547363_1280.jpg") no-repeat fixed center;
+  background: url("https://cdn.pixabay.com/photo/2015/10/06/19/28/trees-975091_1280.jpg") no-repeat fixed center;
   background-size: cover;
 }
 
@@ -70,15 +70,15 @@ span .font-pair1b{
 }
 
 .first-section-background {
-  background: url("https://cdn.pixabay.com/photo/2020/03/26/10/58/norway-4970080_1280.jpg") no-repeat fixed bottom;
+  background: url("https://cdn.pixabay.com/photo/2021/08/05/18/52/forest-6524635_1280.jpg") no-repeat fixed bottom;
 }
 
 .second-section-background {
-  background: url("https://cdn.pixabay.com/photo/2017/02/15/11/15/wintry-2068298_1280.jpg") no-repeat fixed bottom;
+  background: url("https://cdn.pixabay.com/photo/2016/11/22/19/33/sea-1850228_1280.jpg") no-repeat fixed bottom;
 }
 
 .third-section-background {
-  background: url("https://cdn.pixabay.com/photo/2015/10/06/19/28/trees-975091_1280.jpg") no-repeat fixed bottom;
+  background: url("https://cdn.pixabay.com/photo/2022/02/19/22/48/forest-7023487_1280.jpg") no-repeat fixed bottom;
 }
 
 .with-background {
@@ -98,6 +98,7 @@ h1 {
   line-height: 65px;
   font-weight: 400;
   margin: 0;
+  
 }
 
 h2 {
@@ -139,7 +140,7 @@ article {
 }
 
 .first-article-container {
-  background-color: white;
+  background-color: #F4F6F6;
 }
 
 .second-article-container {
@@ -147,7 +148,7 @@ article {
 }
 
 .third-article-container {
-  background-color: #ff5c33;
+  background-color: #CCD1D1;
 }
 
 
